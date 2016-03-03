@@ -1,5 +1,5 @@
 {
-  "name": "htmlhint-loader",
+  "name": "htmlhint-loader-ng2",
   "version": "0.1.0",
   "description": "A webpack loader for htmlhint",
   "main": "index.js",
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/mattlewis92/htmlhint-loader#readme",
   "dependencies": {
     "chalk": "~1.1.0",
-    "htmlhint": "~0.9.7",
+    "htmlhint-ng2": "0.0.1",
     "loader-utils": "~0.2.10",
     "object-assign": "~3.0.0"
   },
@@ -40,6 +40,7 @@
     "istanbul": "~0.3.17",
     "mocha": "~2.2.5",
     "rewire": "~2.3.4",
+    "sinon": "^1.17.3",
     "sinon-chai": "~2.8.0"
   }
 }

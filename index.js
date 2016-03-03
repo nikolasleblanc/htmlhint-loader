@@ -1,6 +1,6 @@
 'use strict';
 
-var HTMLHint = require('htmlhint').HTMLHint;
+var HTMLHint = require('htmlhint-ng2').HTMLHint;
 var loaderUtils = require('loader-utils');
 var assign = require('object-assign');
 var path = require('path');
