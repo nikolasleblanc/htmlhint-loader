@@ -1,6 +1,6 @@
 {
   "name": "htmlhint-loader-ng2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A webpack loader for htmlhint using angular 2",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/mattlewis92/htmlhint-loader#readme",
   "dependencies": {
     "chalk": "~1.1.0",
-    "htmlhint-ng2": "^0.0.2",
+    "htmlhint-ng2": "^0.0.3",
     "loader-utils": "~0.2.10",
     "object-assign": "~3.0.0"
   },
