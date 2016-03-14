@@ -1,12 +1,11 @@
-# htmlhint-loader
+# htmlhint-loader-ng2
 
 > A webpack loader for htmlhint
 
-[![npm version](https://badge.fury.io/js/htmlhint-loader.svg)](http://badge.fury.io/js/htmlhint-loader)
-[![Build Status](https://travis-ci.org/mattlewis92/htmlhint-loader.svg)](https://travis-ci.org/mattlewis92/htmlhint-loader)
-[![Coverage Status](https://coveralls.io/repos/mattlewis92/htmlhint-loader/badge.svg?branch=master&service=github)](https://coveralls.io/github/mattlewis92/htmlhint-loader?branch=master)
-[![Dependency Status](https://david-dm.org/mattlewis92/htmlhint-loader.svg)](https://david-dm.org/mattlewis92/htmlhint-loader)
-[![devDependency Status](https://david-dm.org/mattlewis92/htmlhint-loader/dev-status.svg)](https://david-dm.org/mattlewis92/htmlhint-loader#info=devDependencies)
+[![NPM version](https://img.shields.io/npm/v/htmlhint-loader-ng2.svg?style=flat)](https://www.npmjs.com/package/htmlhint-loader-ng2)
+[![License](https://img.shields.io/npm/l/htmlhint-loader-ng2.svg?style=flat)](https://www.npmjs.com/package/htmlhint-loader-ng2)
+[![NPM count](https://img.shields.io/npm/dm/htmlhint-loader-ng2.svg?style=flat)](https://www.npmjs.com/package/htmlhint-loader-ng2)
+[![NPM count](https://img.shields.io/npm/dt/htmlhint-loader-ng2.svg?style=flat)](https://www.npmjs.com/package/htmlhint-loader-ng2)
 
 ## Install
 
