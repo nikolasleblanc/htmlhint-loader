@@ -1,6 +1,6 @@
 # htmlhint-loader-ng2
 
-> A webpack loader for htmlhint
+> A webpack loader for htmlhint-ng2, based off htmlhint-loader.
 
 [![NPM version](https://img.shields.io/npm/v/htmlhint-loader-ng2.svg?style=flat)](https://www.npmjs.com/package/htmlhint-loader-ng2)
 [![License](https://img.shields.io/npm/l/htmlhint-loader-ng2.svg?style=flat)](https://www.npmjs.com/package/htmlhint-loader-ng2)
@@ -10,7 +10,7 @@
 ## Install
 
 ```
-npm install htmlhint-loader
+npm install htmlhint-loader-ng2
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ module.exports = {
     preLoaders: [
       {
         test: /\.html/, 
-        loader: 'htmlhint', 
+        loader: 'htmlhint-ng2', 
         exclude: /node_modules/
       }
     ]
@@ -41,7 +41,7 @@ You can directly pass some [htmlhint rules](https://github.com/yaniswang/HTMLHin
     preLoaders: [
       {
         test: /\.html/,
-        loader: 'htmlhint?{tagname-lowercase: true}',
+        loader: 'htmlhint-ng2?{tagname-lowercase: true}',
         exclude: /node_modules/
       },
     ]
@@ -93,7 +93,7 @@ Whether to force webpack to fail the build on a htmlhint warning
 Any custom rules you would like added to htmlhint. Specify as an array like so:
 ```javascript
 module.exports = {
-  htmlhint: {
+  htmlhint-ng2: {
     customRules: [{
       id: 'my-rule-name',
       description: 'Example description',
